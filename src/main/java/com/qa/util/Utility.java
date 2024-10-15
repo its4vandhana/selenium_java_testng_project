@@ -34,12 +34,12 @@ public class Utility {
 		}
 	}
 
-	public void waitFor(WebElement locator) {
+	/*public void waitFor(WebElement locator) {
 
 		WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(prop.getProperty("EXPLICIT_WAIT")));
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 
-	}
+	}*/
 
 	public void getFailedTestCases(String testMethodName) {
 
